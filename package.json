@@ -12,6 +12,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@changesets/cli": "^2.29.2",
     "turbo": "^2.5.0"
   },
   "packageManager": "pnpm@10.7.1"
