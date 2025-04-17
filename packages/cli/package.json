@@ -2,14 +2,37 @@
   "name": "componentry",
   "version": "0.0.0",
   "description": "Components on command.",
+  "main": "dist/index.mjs",
+  "type": "module",
+  "bin": "./dist/index.mjs",
   "scripts": {
-    "build": "unbuild"
+    "build": "pnpm lint:fix && unbuild",
+    "lint": "eslint . --cache",
+    "lint:fix": "eslint . --fix"
   },
   "keywords": [],
-  "author": "",
+  "author": "Franklin Shera",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vfshera/componentry.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vfshera/componentry/issues"
+  },
+  "homepage": "https://github.com/vfshera/componentry#readme",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
   "devDependencies": {
     "@types/node": "^22.14.1",
-    "unbuild": "^3.5.0"
+    "unbuild": "^3.5.0",
+    "@typescript-eslint/parser": "^8.29.1",
+    "eslint": "^9.24.0",
+    "globals": "^16.0.0",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.29.1"
   }
 }
