@@ -6,7 +6,7 @@
   "type": "module",
   "bin": "./dist/index.mjs",
   "scripts": {
-    "build": "pnpm lint:fix && unbuild",
+    "build": "unbuild",
     "lint": "eslint . --cache",
     "lint:fix": "eslint . --fix"
   },
