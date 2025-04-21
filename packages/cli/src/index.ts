@@ -1,8 +1,7 @@
 #!/usr/bin/env node
 
 async function main() {
-  console.log('Hello, Componentry!');
-  
+  console.log("Hello, Kompkit!");
 }
 
 main();

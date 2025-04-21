@@ -1,5 +1,5 @@
 {
-  "name": "componentry",
+  "name": "kompkit",
   "version": "0.0.0",
   "description": "Components on command.",
   "main": "dist/index.mjs",
@@ -15,12 +15,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vfshera/componentry.git"
+    "url": "git+https://github.com/vfshera/kompkit.git"
   },
   "bugs": {
-    "url": "https://github.com/vfshera/componentry/issues"
+    "url": "https://github.com/vfshera/kompkit/issues"
   },
-  "homepage": "https://github.com/vfshera/componentry#readme",
+  "homepage": "https://github.com/vfshera/kompkit#readme",
   "files": [
     "dist",
     "LICENSE",
