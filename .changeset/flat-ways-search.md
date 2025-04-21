@@ -1,5 +1,0 @@
----
-"kompkit": minor
----
-
-initial
